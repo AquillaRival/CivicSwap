@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://civicswap-frontend.vercel.app", "http://localhost:5173"],
+    origin: ["https://civic-swap.vercel.app", "http://localhost:5173"],
     credentials: true,
   }),
 );
